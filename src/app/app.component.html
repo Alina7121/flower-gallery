@@ -1,7 +1,7 @@
 <div class="background">
   <div class="container">
     <h2><span>Flower Gallery</span></h2>
-    <h3><span>{{galleryInfo.name}}/{{galleryInfo.studentNumber}}</span></h3>
+    <h3><span>{{galleryInfo.name}}</span></h3>
     <h4>Image {{currentIndex +1}} / {{images.length}}</h4>
       <div class="row">
         <div class="col-md-1">
@@ -9,7 +9,7 @@
         </div>
         <div class="col-md-10">
           <div class="thumbnail">
-            <img [src]="images[currentIndex].path" class="img-thumbnail" style="height: 400px;width:1000px;"[alt]="images[currentIndex].alt">
+            <img [src]="images[currentIndex].path" class="img-thumbnail" style="height: auto;width:800px;"[alt]="images[currentIndex].alt">
             <div class="caption">
               <p>{{images[currentIndex].caption}}</p>
             </div>     

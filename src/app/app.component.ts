@@ -8,8 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'photo-gallery';
   galleryInfo: any = {
-    name: 'Alina Vasilyeva',
-    studentNumber: '100799398'
+    //studentNumber: '100799398'
 };
 currentIndex: number = 0; 
 images:any[ ]= [
