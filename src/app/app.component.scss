@@ -1,0 +1,43 @@
+.background{
+    background-color: #33001b;
+}
+h2{
+    font-weight: bold;
+}
+h4{
+    color:rgb(255, 148, 114);
+     font-size: 0.75em;
+}
+span{
+    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: Arial,sans-serif;
+    font-size: 0.75em;
+  }
+  
+.img-thumbnail.active{
+    border:2px solid rgb(255, 148, 114);
+    transform: scale(1.2);
+}
+.img-thumbnail{
+ cursor: pointer;
+}
+
+.caption{
+    color:rgb(255, 148, 114);
+}
+.btn:hover{
+    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+    color:#33001b;
+    font-weight: bold;
+  }
+.btn{
+    font-weight: bold;
+    color:#33001b;
+    font-size: 0.75em;
+    height:30px;
+    width:100px;
+ 
+}
